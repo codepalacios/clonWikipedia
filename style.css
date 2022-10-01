@@ -19,12 +19,11 @@ header img {
 }
 main {
     width: 100%;
-    height: inherit;
     text-align: center;
 }
 main .main-container-lenguajes {
     width: 40rem;
-    height: 25rem;
+    height: 20rem;
     margin: 0 auto;
     background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png');
     background-repeat: no-repeat;
@@ -33,14 +32,55 @@ main .main-container-lenguajes {
     grid-template-columns: 1fr 1fr;
     font-size: 1rem;
 }
-main .main-container-lenguajes div {
+main .main-container-lenguajes .main-lenguajes {
     width: 20rem;
-    height: 5rem;
+    height: 4rem;
 }
-main .main-container-lenguajes div a {
+main .main-container-lenguajes .lenguajes {
+    width: 10rem;
+}
+main .main-container-lenguajes .spanish {
+    margin-left: 6rem;
+}
+main .main-container-lenguajes .english {
+    margin-left: 4rem;
+}
+main .main-container-lenguajes .japanese {
+    margin-left: 3rem;
+}
+main .main-container-lenguajes .russian {
+    margin-left: 7rem;
+}
+main .main-container-lenguajes .french {
+    margin-left: 1rem;
+}
+main .main-container-lenguajes .german {
+    margin-left: 9rem;
+}
+main .main-container-lenguajes .italian {
+    margin-left: 3rem;
+}
+main .main-container-lenguajes .chinese {
+    margin-left: 7rem;
+}
+main .main-container-lenguajes .portuguese {
+    margin-left: 6rem;
+}
+main .main-container-lenguajes .arabic {
+    margin-left: 4rem;
+}
+main .main-container-lenguajes .lenguajes a {
     display: block;
     text-decoration: none;
     color: #36c;
     font-weight: bold;
+}
+main .main-container-buscador {
+    border: 1px solid black;
+    width: 30rem;
+    margin: 0 auto;
+}
+main .main-container-buscador div {
+    display: inline-block;
 }
 
