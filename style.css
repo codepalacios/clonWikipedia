@@ -75,12 +75,10 @@ main .main-container-lenguajes .lenguajes a {
     color: #36c;
     font-weight: bold;
 }
-main .main-container-buscador {
+main .main-contenedor-busqueda {
     border: 1px solid black;
     width: 30rem;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
-main .main-container-buscador div {
-    display: inline-block;
-}
-
