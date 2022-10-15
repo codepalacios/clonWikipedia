@@ -76,9 +76,42 @@ main .main-container-lenguajes .lenguajes a {
     font-weight: bold;
 }
 main .main-contenedor-busqueda {
-    border: 1px solid black;
     width: 30rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+main .main-contenedor-busqueda .main-busqueda {
+    border: 1px solid #a2a9b1;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    width: 27rem;
+}
+main .main-contenedor-busqueda .buscador-idiomas input {
+    width: 22.5rem;
+    height: 2.5rem;
+    border: none;
+}
+main .main-contenedor-busqueda .buscador-idiomas select {
+    display: inline-block;
+    width: 2.6rem;
+    font-size: 1rem;
+    margin-left: 0.2rem;
+    border: none;
+    background-color: white;
+    color: inherit;
+}
+main .main-contenedor-busqueda .lupa-buscar {
+    border: 1px solid #36c;
+    border-radius: 0 2px 2px 0;
+    background-color: #36c;
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-contenedor-busqueda .lupa-buscar span {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
