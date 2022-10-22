@@ -115,3 +115,18 @@ main .main-contenedor-busqueda .lupa-buscar span {
     font-size: 1.5rem;
     font-weight: bold;
 }
+.main-container-read {
+    width: 30rem;
+    margin: 2.5rem auto;
+}
+.main-container-read .main-read-lenguaje {
+    width: 20rem;
+    height: 2.5rem;;
+    margin: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+}
+
