@@ -75,6 +75,9 @@ main .main-container-lenguajes .lenguajes a {
     color: #36c;
     font-weight: bold;
 }
+main .main-container-lenguajes .lenguajes a:hover {
+    text-decoration: underline;
+}
 main .main-contenedor-busqueda {
     width: 30rem;
     margin: 0 auto;
@@ -91,6 +94,7 @@ main .main-contenedor-busqueda .buscador-idiomas input {
     width: 22.5rem;
     height: 2.5rem;
     border: none;
+    outline: none;
 }
 main .main-contenedor-busqueda .buscador-idiomas select {
     display: inline-block;
@@ -204,6 +208,9 @@ main .main-contenedor-busqueda .lupa-buscar span {
     text-decoration: none;
     color: #36c;
 }
+.footer-container-superior .footer-superior-izquierdo a:hover {
+    text-decoration: underline;
+}
 .footer-container-superior .footer-superior-izquierdo span {
     font-weight: bold;
 }
@@ -252,6 +259,9 @@ main .main-contenedor-busqueda .lupa-buscar span {
 .footer-container-inferior a {
     text-decoration: none;
     color: #36c;
+}
+.footer-container-inferior a:hover {
+    text-decoration: underline;
 }
 .footer-container-inferior ul {
     display: flex;
